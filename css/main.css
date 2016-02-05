@@ -22,7 +22,7 @@ h1 {
   margin: 0 auto;
   display: flex;
   height: 400px;
-  width: 50vw;
+  width: 90vw;
   justify-content: space-between; }
   .flex div {
     flex-grow: 1;
