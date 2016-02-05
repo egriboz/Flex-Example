@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville)
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
+
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+body, html
+  font-family: 'Montserrat', sans-serif
+  background: #fff
+
+h1
+  font-family: 'Libre Baskerville', serif
+  text-align: center
+  margin-top: 50px
+  margin-bottom: 50px
+  font-size: 24px
+  color: #333
+
+/* Flex style */
+.flex
+
+  margin: 0 auto
+  display: flex
+  height: 400px
+  width: 50vw
+  justify-content: space-between
+  div
+    flex-grow: 1
+    transition: flex-grow .5s ease-in-out
+    &:hover
+      flex-grow: 3
+
+footer
+  text-align: center
+  margin-top: 50px
+  a
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+
